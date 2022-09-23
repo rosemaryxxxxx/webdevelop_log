@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background.png) no-repeat;
+background-size: 100%;
+}
+
+/* body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: black;
+}
+#container{
+	width: 1200px;
+	height: 700px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(background.png);
+	margin: 20px auto;	
+} */
+.login {
+	width: 350px;
+	height: 600px;
+	background-color: #eaedef;
+	border-radius: 5px;
+	position: absolute;
+	top: 30px;
+	left:50%;
+	margin-left: -150px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tab {
+	box-sizing: content-box;
+	width: 200px;
+	height: 30px;
+	border-bottom: 2px solid rgb(84, 185, 180);
+	padding-bottom: 8px;
+	margin: 9px auto;
+}
+
+.tab .tab-log,
+.reg {
+	width: 60px;
+	float: left;
+	line-height: 30px;
+	margin-left: 20px;
+	font-family: 楷体;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgb(84, 185, 180,.5);
+	border-radius: 5px;
+}
+
+.login .log {
+	width: 300px;
+	height: 350px;
+	/* background-color: blueviolet; */
+	position: absolute;
+	top: 103px;
+	left: 50%;
+	margin-left: -150px;
+	display: block;
+}
+
+.login .rege {
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -150px;
+	display: none;
+}
+/*登录*/
+.log input[type="text"], input[type="password"]{
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 50px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #0d0d0e;
+    margin: 7px 48px;
+ background-color: rgb(84, 185, 180,.5);
+   
+}/*账号和密码文本框*/
+input[type="text"]::placeholder, input[type="password"]::placeholder{
+    color: rgb(77, 75, 75);
+}/*账号和密码*/
+.log input[type="text"]:hover, input[type="password"]:hover{
+    border-color: #34476e;
+}/*这里加了一个鼠标移入的效果*/
+
+.log .button{
+    width: 100px;
+    height: 40px;
+    margin: 57px 100px;
+	border-radius: 2px;
+	cursor:pointer;
+	text-align: center;
+	line-height: 40px;
+    background-image: linear-gradient(95deg,rgb(84, 185, 180,.9),rgba(238, 239, 239, 0.5));
+}
+/* 注册 */
+.rege ul li{
+	margin-bottom: 15px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.inp {
+	border: 1px solid #dcdfe6;
+    width: 70%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #000;
+    margin: 10px 48px;
+    background-color: rgb(126, 117, 117,.20);
+    background-image: linear-gradient(95deg,rgba(73, 83, 69, 0.61),rgba(84, 185, 180, 0.5));
+}
+.but{
+	width: 100px;
+    height: 40px;
+    margin: 0px 100px;
+	border-radius: 2px;
+	cursor:pointer;
+	text-align: center;
+	line-height: 40px;
+	background-image: linear-gradient(95deg,rgba(73, 83, 69, 0.61),rgba(84, 185, 180, 0.5));
+
+}
+.radio{
+	width: 100px;
+	height: 3px;
+	margin: 0 auto;
+}
+span{
+	display: block;
+	height: 0px;
+	margin-top: 0px;
+}
+.error {
+    color: #df3033;
+    margin-left: 60px;
+}
+
+.success {
+    color: #40b83f;
+    margin-left: 60px;
+}
+
+
